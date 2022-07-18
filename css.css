@@ -1180,6 +1180,10 @@ select {
   --tw-text-opacity: 1;
   color: rgba(239, 61, 80, var(--tw-text-opacity));
 }
+.text-purple {
+  --tw-bg-opacity: 1;
+  color: rgba(43, 53, 121, var(--tw-bg-opacity));
+}
 .text-black {
   --tw-text-opacity: 1;
   color: rgba(62, 64, 62, var(--tw-text-opacity));
