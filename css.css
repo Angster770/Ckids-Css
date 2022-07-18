@@ -1730,7 +1730,8 @@ div#chabad_main_content {
 }
 
 .cco_templateless_template {
-  background: #2e509f;
+  background: rgba(27, 170, 161, 1);
+  /* background: #2e509f; */
 }
 
 .cco_templateless_template a {
