@@ -931,6 +931,18 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(0, 167, 157, var(--tw-bg-opacity));
 }
+
+/* Angster edited */
+.bg-light-green {
+  --tw-bg-opacity: 1;
+  background-color: rgba(27, 170, 161, var(--tw-bg-opacity));
+}
+
+.bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgba(43, 53, 121, var(--tw-bg-opacity));
+}
+/*  */
 .bg-yellow {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 197, 73, var(--tw-bg-opacity));
@@ -2135,7 +2147,7 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   max-width: 220px;
   min-width: 80px;
   padding: 2px 15px 0;
-  color: rgba(62, 64, 62, var(--tw-text-opacity));
+  color: rgba(62, 64, 1, var(--tw-text-opacity));
   display: block;
   font-size: 16px;
   padding: 0;
