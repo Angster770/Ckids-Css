@@ -2133,7 +2133,7 @@ div#co_photo_gallery .co_photo_gallery_footer a {
 div#chabad_head .chabad_navigator_bar {
   background-size: 100%;
   width: 975px;
-  height: 36px;
+  height: 100px;
   box-sizing: content-box;
 
   width: unset;
