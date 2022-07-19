@@ -2153,7 +2153,8 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   display: inline-block;
   float: none;
   font-size: 12px;
-  height: auto;
+  /* auto height */
+  height: max-content;
   max-width: 220px;
   min-width: 80px;
   padding: 2px 15px 0;
