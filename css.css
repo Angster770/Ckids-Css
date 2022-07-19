@@ -2143,7 +2143,7 @@ div#chabad_head .chabad_navigator_bar {
 div#chabad_head .chabad_navigator_bar ul li .sub_menu {
   display: none;
   position: absolute;
-  top: 36px;
+  top: 36rem;
 
   display: block;
   top: 100%;
@@ -2153,7 +2153,7 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   display: inline-block;
   float: none;
   font-size: 12px;
-  /* height: auto; */
+  height: auto;
   max-width: 220px;
   min-width: 80px;
   padding: 40rem 15rem 40rem;
