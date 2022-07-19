@@ -2133,7 +2133,7 @@ div#co_photo_gallery .co_photo_gallery_footer a {
 div#chabad_head .chabad_navigator_bar {
   background-size: 100%;
   width: 975px;
-  height: 36rem;
+  height: 36px;
   box-sizing: content-box;
 
   width: unset;
@@ -2160,7 +2160,7 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   color: rgba(62, 64, 1, var(--tw-text-opacity));
   display: block;
   font-size: 16px;
-  padding: 0;
+  /* padding: 0; */
 }
 
 #chabad_body_page {
