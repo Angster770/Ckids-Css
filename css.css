@@ -1087,7 +1087,7 @@ select {
   font-family: Lora, ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
 }
 .font-comfortaa {
-  font-family: Comfortaa;
+  font-family: "Comfortaa";
 }
 .text-sm {
   font-size: 0.875rem;
