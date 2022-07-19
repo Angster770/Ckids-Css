@@ -2310,7 +2310,7 @@ article.content,
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f1686f;
+  background: rgba(43, 53, 121, 1);
   color: white;
   font-size: 18px;
   padding: 20px;
@@ -2320,7 +2320,7 @@ article.content,
 }
 
 .co_index .item .title a:hover {
-  background: #ef3d50;
+  background: rgba(43, 53, 121, 1);
 }
 
 .g960.footer {
