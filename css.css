@@ -2335,9 +2335,9 @@ article.content,
   padding: 0;
   margin: 0;
 }
-.co_calendar_text > .co_date {
-  padding: 0;
-  margin: 0;
+.co_calendar_body .co_calendar_gradient .item .co_date {
+  padding: 0 !important;
+  font-size: small;
 }
 .co_calendar_body .co_calendar_gradient .item {
   color: #2b3579 !important;
