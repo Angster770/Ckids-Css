@@ -2070,7 +2070,7 @@ div#co_photo_gallery .co_photo_gallery_footer a {
   }
 }
 div#chabad_head > #HeaderSection > div {
-  height: 10rem;
+  height: 10rem !important;
 }
 /* div#chabad_head .chabad_navigator_bar {
   background-size: 100%;
