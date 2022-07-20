@@ -2330,9 +2330,12 @@ article.content,
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
 }
-#WeeklyClasses > div > img > .cls-1 {
-  fill: #2e509f !important;
+#WeeklyClasses > div > div > img {
+  background-color: #2e509f !important;
+  mask: url(https://d20wyuhr8wjce.cloudfront.net/0fa3ad44-0d73-42ee-a384-3348a4f73cca/images/weekly-classes.svg) no-repeat center / contain;
+  -webkit-mask: url(https://d20wyuhr8wjce.cloudfront.net/0fa3ad44-0d73-42ee-a384-3348a4f73cca/images/weekly-classes.svg) no-repeat center / contain;
 }
+
 #WeeklyClasses > div > .cls-1 {
   fill: #2e509e !important;
 }
