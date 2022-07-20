@@ -2331,7 +2331,7 @@ article.content,
   gap: 0;
 }
 #WeeklyClasses > div > div > img {
-  color: #2e509f !important;
+  fill: #2e509f !important;
 }
 .co_calendar_text > div {
   padding: 0;
