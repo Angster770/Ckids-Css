@@ -2145,6 +2145,10 @@ div#chabad_head > #HeaderSection > div {
 .navi > ul > li + li::before {
   content: "| ";
 }
+.content_page .photo img {
+  border-radius: 12px;
+}
+
 div#chabad_head .chabad_navigator_bar ul li .sub_menu {
   display: none;
   position: absolute;
