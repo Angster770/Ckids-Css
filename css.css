@@ -2148,7 +2148,9 @@ div#chabad_head > #HeaderSection > div {
 .content_page .photo img {
   border-radius: 12px;
 }
-
+.co_photo_gallery a img {
+  border-radius: 12px;
+}
 div#chabad_head .chabad_navigator_bar ul li .sub_menu {
   display: none;
   position: absolute;
