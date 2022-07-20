@@ -2072,8 +2072,6 @@ div#co_photo_gallery .co_photo_gallery_footer a {
 div#chabad_head > #HeaderSection > div {
   height: 10rem;
 }
-.co_calendar_text > div {
-}
 /* div#chabad_head .chabad_navigator_bar {
   background-size: 100%;
   width: 1975px;
@@ -2328,15 +2326,22 @@ article.content,
 }
 
 .co_calendar_body .co_calendar_gradient .co_calendar_text {
-  color: #2b3579;
-  background-color: white;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
 }
+
+.co_calendar_text > div {
+  padding: 0;
+  margin: 0;
+}
 .co_calendar_text > .co_date {
   padding: 0;
   margin: 0;
+}
+.co_calendar_body .co_calendar_gradient .item {
+  color: #2b3579;
+  background-color: white;
 }
 
 @media (min-width: 768px) {
