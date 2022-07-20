@@ -2130,16 +2130,21 @@ div#co_photo_gallery .co_photo_gallery_footer a {
     gap: 3rem;
   }
 }
-div#chabad_head .chabad_navigator_bar {
+div#chabad_head > #HeaderSection > div {
+  height: 10rem;
+}
+/* div#chabad_head .chabad_navigator_bar {
   background-size: 100%;
-  width: 975px;
-  height: 100rem;
+  width: 1975px;
+  height: 150rem;
   box-sizing: content-box;
 
   width: unset;
   height: unset;
+} */
+.navi > ul > li + li::before {
+  content: "| ";
 }
-
 div#chabad_head .chabad_navigator_bar ul li .sub_menu {
   display: none;
   position: absolute;
