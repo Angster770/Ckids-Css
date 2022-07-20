@@ -2340,8 +2340,8 @@ article.content,
   margin: 0;
 }
 .co_calendar_body .co_calendar_gradient .item {
-  color: #2b3579;
-  background-color: white;
+  color: #2b3579 !important;
+  background-color: white !important;
 }
 
 @media (min-width: 768px) {
