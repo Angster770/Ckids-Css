@@ -2330,8 +2330,14 @@ article.content,
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
 }
-#WeeklyClasses > div > div > img > .cls-1 {
+#WeeklyClasses > div > img > .cls-1 {
   fill: #2e509f !important;
+}
+#WeeklyClasses > div > .cls-1 {
+  fill: #2e509e !important;
+}
+#WeeklyClasses > div {
+  fill: #2e509d !important;
 }
 .co_calendar_text > div {
   padding: 0;
