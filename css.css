@@ -2069,7 +2069,7 @@ div#co_photo_gallery .co_photo_gallery_footer a {
     gap: 3rem;
   }
 }
-div#chabad_head {
+div#chabad_head > div {
   height: 10rem !important;
 }
 /* div#chabad_head .chabad_navigator_bar {
