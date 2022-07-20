@@ -2090,6 +2090,12 @@ div#chabad_head > div {
 .co_photo_gallery a img {
   border-radius: 12px;
 }
+
+.testimonial_container {
+  display: flex;
+  justify-content: center;
+}
+
 div#chabad_head .chabad_navigator_bar ul li .sub_menu {
   display: none;
   position: absolute;
