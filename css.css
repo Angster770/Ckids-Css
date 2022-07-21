@@ -2149,6 +2149,9 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   grid-template-rows: 0.5fr 0.5fr;
   height: 14rem;
 }
+.co_title_calendar > a {
+  font-size: xx-large;
+}
 
 .item .normal-width {
   border-left: solid;
