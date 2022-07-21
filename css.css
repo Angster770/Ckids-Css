@@ -2136,7 +2136,7 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
 
 .co_calendar_body {
   grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
-  grid-template-rows: 1fr, 1fr;
+  grid-template-rows: repeat(1, minmax(0, 1fr)) !important;
   height: 13rem;
   overflow: hidden;
   margin-bottom: 5rem;
