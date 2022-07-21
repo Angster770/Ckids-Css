@@ -1016,6 +1016,8 @@ select {
 }
 .py-16 {
   padding-bottom: 4rem;
+  border-bottom: solid #eaeaea;
+
   /* padding-top: 4rem; */
 }
 .py-5 {
@@ -2106,6 +2108,7 @@ div#chabad_head > div {
 /* About */
 .py-16 {
   padding-top: 4rem !important;
+  border-bottom: solid #eaeaea;
 }
 /* testimonial section */
 
