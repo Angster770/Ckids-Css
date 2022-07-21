@@ -2129,6 +2129,11 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 } */
 /* .co_calendar_gradient .co_calendar_text */
+/* grid template */
+.co_calendar_text calendar-width {
+  grid-template-rows: 1fr 1fr;
+}
+
 .co_calendar_body {
   grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
   grid-template-rows: 1fr, 1fr;
