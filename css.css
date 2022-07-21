@@ -1667,6 +1667,7 @@ select {
   .md\:py-16 {
     padding-bottom: 4rem;
     padding-top: 4rem;
+    border-bottom: solid #eaeaea;
   }
   .md\:py-8 {
     padding-bottom: 2rem;
