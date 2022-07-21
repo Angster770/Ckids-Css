@@ -2124,6 +2124,11 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   padding: 0;
 }
 
+/* Chabad Calender */
+.co_calendar_body {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
 #chabad_body_page {
   display: flex;
   min-height: calc(100vh - 30px);
