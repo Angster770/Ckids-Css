@@ -2145,8 +2145,8 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
 .co_calendar_body .co_calendar_gradient .co_calendar_text {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: repeat(2, minmax(0, 0.5fr)) !important;
+  grid-template-rows: 0.5fr 0.5fr;
   height: 20rem;
 }
 
@@ -2374,7 +2374,7 @@ article.content,
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
   height: 20rem;
 }
 #WeeklyClasses > div > div > img {
@@ -2410,7 +2410,7 @@ article.content,
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
     height: 20rem;
   }
 }
