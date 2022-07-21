@@ -1632,6 +1632,10 @@ select {
   .md\:border-l {
     border-left-width: 1px;
   }
+
+  .border-purple {
+    border: solid #2a4fb7;
+  }
   .md\:p-10 {
     padding: 2.5rem;
   }
