@@ -2399,8 +2399,11 @@ article.content,
   border-left: #2b3579;
 }
 .co_calendar_body .co_calendar_gradient .item .co_date {
-  padding: 0px 0 0px 0 !important;
+  /* padding: 0px 0 0px 0 !important; */
+  border-left: solid;
   font-size: small;
+  border-left: solid;
+  padding-left: 1rem !important;
 }
 .co_calendar_body .co_calendar_gradient .item .co_text_calendar {
   display: none;
@@ -2440,6 +2443,8 @@ article.content,
 .co_calendar_body .co_calendar_gradient .item .co_date {
   order: 2;
   padding: 0px;
+  border-left: solid;
+  padding-left: 1rem !important;
 }
 
 .co_calendar_body .co_calendar_gradient .item .co_title_calendar {
@@ -2456,6 +2461,8 @@ article.content,
 @media (min-width: 768px) {
   .co_calendar_body .co_calendar_gradient .item .co_date {
     padding: 0px;
+    border-left: solid;
+    padding-left: 1rem !important;
   }
 
   .co_calendar_body .co_calendar_gradient .item .co_title_calendar {
