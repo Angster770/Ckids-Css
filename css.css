@@ -970,6 +970,7 @@ select {
 }
 .p-5 {
   padding: 1.25rem;
+  margin-bottom: 5rem;
 }
 .p-9 {
   padding: 2.25rem;
