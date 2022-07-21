@@ -2411,7 +2411,7 @@ article.content,
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: 0.5fr 0.5fr;
-    height: 10rem !important;
+    height: 13rem !important;
   }
 }
 
