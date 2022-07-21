@@ -2402,7 +2402,7 @@ article.content,
   /* padding: 0px 0 0px 0 !important; */
   border-left: solid;
   font-size: small;
-  border-left: solid;
+  border-left: 5px solid;
   padding-left: 1rem !important;
 }
 .co_calendar_body .co_calendar_gradient .item .co_text_calendar {
@@ -2443,7 +2443,7 @@ article.content,
 .co_calendar_body .co_calendar_gradient .item .co_date {
   order: 2;
   padding: 0px;
-  border-left: solid;
+  border-left: 5px solid;
   padding-left: 1rem !important;
 }
 
@@ -2461,7 +2461,7 @@ article.content,
 @media (min-width: 768px) {
   .co_calendar_body .co_calendar_gradient .item .co_date {
     padding: 0px;
-    border-left: solid;
+    border-left: 5px solid;
     padding-left: 1rem !important;
   }
 
