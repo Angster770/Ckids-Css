@@ -2106,6 +2106,7 @@ div#chabad_head > div {
 .testimonial_container {
   display: flex;
   justify-content: center;
+  gap: 3rem !important;
 }
 
 div#chabad_head .chabad_navigator_bar ul li .sub_menu {
