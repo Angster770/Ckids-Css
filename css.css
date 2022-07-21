@@ -1674,7 +1674,7 @@ select {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-    padding-top: 8rem;
+    padding-top: 4rem;
   }
 }
 @media (min-width: 1024px) {
