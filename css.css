@@ -2069,11 +2069,12 @@ div#co_photo_gallery .co_photo_gallery_footer a {
   float: none;
 
   --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  color: #2a4fb7;
   font-size: 1rem;
+  font-weight: 900;
+  border: solid;
   line-height: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 1.5rem 2rem 1.5rem;
   --tw-bg-opacity: 1;
   background-color: rgba(255, 197, 73, var(--tw-bg-opacity));
   border-radius: 0.5rem;
