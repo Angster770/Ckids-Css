@@ -551,6 +551,10 @@ select {
 .ml-2 {
   margin-left: 0.5rem;
 }
+
+.ml-3px {
+  margin-left: 3px;
+}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1487,7 +1491,6 @@ select {
   .sm\:ml-6 {
     margin-left: 1.5rem;
   }
-
   .sm\:ml-3px {
     margin-left: 3px;
   }
@@ -2294,6 +2297,9 @@ div.chabad_left_column #ContentArea {
     padding-left: 0;
     padding-right: 0;
   }
+}
+.ml-3px {
+  margin-left: 3px;
 }
 
 .article-header {
