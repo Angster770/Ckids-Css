@@ -1487,6 +1487,10 @@ select {
   .sm\:ml-6 {
     margin-left: 1.5rem;
   }
+
+  .sm\:ml-3px {
+    margin-left: 3px;
+  }
   .sm\:block {
     display: block;
   }
