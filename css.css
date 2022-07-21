@@ -1013,7 +1013,7 @@ select {
 }
 .py-16 {
   padding-bottom: 4rem;
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
 }
 .py-5 {
   padding-bottom: 1.25rem;
