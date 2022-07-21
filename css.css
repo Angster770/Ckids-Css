@@ -2395,7 +2395,7 @@ article.content,
   border-left: #2b3579;
 }
 .co_calendar_body .co_calendar_gradient .item .co_date {
-  padding: 20px 0 20px 0 !important;
+  padding: 0px 0 0px 0 !important;
   font-size: small;
 }
 .co_calendar_body .co_calendar_gradient .item .co_text_calendar {
@@ -2435,7 +2435,7 @@ article.content,
 
 .co_calendar_body .co_calendar_gradient .item .co_date {
   order: 2;
-  padding: 10px;
+  padding: 0px;
 }
 
 .co_calendar_body .co_calendar_gradient .item .co_title_calendar {
