@@ -2096,8 +2096,8 @@ div#chabad_head > div {
 }
 
 /* About */
-.md\:py-16 {
-  padding-top: 4rem;
+.py-16 {
+  padding-top: 4rem !important;
 }
 /* testimonial section */
 
