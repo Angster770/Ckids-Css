@@ -2366,9 +2366,9 @@ article.content,
   font-size: 11px;
 }
 
-.co_calendar_body {
+/* .co_calendar_body {
   display: block !important;
-}
+} */
 
 .co_calendar_body .co_calendar_gradient .co_calendar_text {
   display: grid;
