@@ -2417,8 +2417,8 @@ article.content,
 
 .co_calendar_body .co_calendar_gradient .item {
   height: 0;
-  padding-bottom: 100%;
-  background: #f1686f;
+  /* padding-bottom: 100%; */
+  /* background: #f1686f; */
   display: flex;
   flex-direction: column;
   color: white;
