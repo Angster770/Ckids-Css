@@ -1651,11 +1651,12 @@ select {
     padding-bottom: 0;
     padding-top: 0;
   }
-  .md\:py-24 {
-    /* display: none !important; */
+  /* .md\:py-24 {
+    display: none !important;
     padding-bottom: 6rem;
     padding-top: 6rem;
-  }
+  } 
+  */
   .md\:py-16 {
     padding-bottom: 4rem;
     padding-top: 4rem;
