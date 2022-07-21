@@ -2154,7 +2154,7 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
 }
 
 .item .normal-width {
-  border-left: solid;
+  border-left: solid #2b3579;
   margin-bottom: 1rem;
   padding-left: 1rem;
   height: 5rem;
