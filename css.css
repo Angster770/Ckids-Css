@@ -2087,6 +2087,7 @@ div#chabad_head > div {
 .navi > ul > li + li::before {
   content: "| ";
 }
+
 .content_page .photo img {
   border-radius: 12px;
 }
@@ -2094,6 +2095,10 @@ div#chabad_head > div {
   border-radius: 12px;
 }
 
+/* About */
+.md\:py-16 {
+  padding-top: 4rem;
+}
 /* testimonial section */
 
 .testimonial_container {
