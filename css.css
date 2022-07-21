@@ -1561,7 +1561,7 @@ select {
     margin-top: 5rem;
   }
   .md\:mb-16 {
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
   .md\:mb-0 {
     margin-bottom: 0;
