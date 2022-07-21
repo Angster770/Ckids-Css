@@ -2153,6 +2153,10 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   min-height: calc(100vh - 30px);
 }
 
+.co_calendar_text > div {
+  margin-bottom: 1rem;
+}
+
 div#chabad_main_content {
   width: 100%;
   display: flex;
