@@ -2439,7 +2439,7 @@ article.content,
 }
 
 .co_calendar_body .co_calendar_gradient .item .co_title_calendar {
-  padding: 10px 10px 3px;
+  /* padding: 10px 10px 3px; */
   font-weight: 700;
 }
 
@@ -2451,11 +2451,11 @@ article.content,
 
 @media (min-width: 768px) {
   .co_calendar_body .co_calendar_gradient .item .co_date {
-    padding: 20px;
+    padding: 0px;
   }
 
   .co_calendar_body .co_calendar_gradient .item .co_title_calendar {
-    padding: 20px 20px 5px;
+    padding: 0px;
   }
 
   .co_calendar_body .co_calendar_gradient .item .co_text_calendar {
