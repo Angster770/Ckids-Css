@@ -1638,6 +1638,10 @@ select {
   .border-purple {
     border: solid #2a4fb7;
   }
+
+  .border-white {
+    border: solid white;
+  }
   .md\:p-10 {
     padding: 2.5rem;
   }
