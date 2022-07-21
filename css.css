@@ -2152,6 +2152,7 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
 .co_title_calendar > a {
   font-size: xx-large;
   border-left: 5px solid;
+  padding-left: 1rem;
 }
 
 .item .normal-width {
