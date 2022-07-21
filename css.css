@@ -2137,6 +2137,10 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   margin-bottom: 5rem;
 }
 
+.co_calendar_body .co_calendar_gradient .co_calendar_text {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
 .item .normal-width {
   border-left: solid;
   margin-bottom: 1rem;
