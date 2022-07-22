@@ -1821,19 +1821,19 @@ body.section_root .bh {
 
 /* .chabad_navigator_bar ul li a.arrow::after {
 } */
-.chabad_navigator_bar ul li :after {
+/* .chabad_navigator_bar ul li :after {
   content: "|";
   height: 0.3rem;
   overflow: hidden;
   padding-bottom: 0.2rem;
-}
+} */
 
-/* .chabad_navigator_bar ul li.parent ::after {
+.chabad_navigator_bar ul li.parent ::after {
   content: "|";
   height: 0.3rem;
   overflow: hidden;
   margin-bottom: 0.3rem;
-} */
+}
 .chabad_navigator_bar ul li a:hover {
   --tw-text-opacity: 1;
   color: rgba(239, 61, 80, var(--tw-text-opacity));
