@@ -2329,6 +2329,7 @@ article.content,
     gap: 30px;
   }
 }
+
 .co_index .item {
   text-align: center;
   padding: 0;
@@ -2479,6 +2480,11 @@ article.content,
 }
 
 @media (min-width: 768px) {
+  /* Top nav bar head */
+  .parent > a ::before {
+    content: "|";
+  }
+
   .co_calendar_body .co_calendar_gradient .item {
     font-size: 18px;
   }
