@@ -1817,6 +1817,7 @@ body.section_root .bh {
   /* content: " |"; */
   height: 0.5rem;
   overflow: hidden;
+  font-size: small;
 }
 
 /* .chabad_navigator_bar ul li a.arrow::after {
