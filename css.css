@@ -1813,7 +1813,7 @@ body.section_root .bh {
   /* border-top: 5px solid rgba(62,64,62,var(--tw-text-opacity)); */
   border-top: 5px solid white;
   margin-left: 7px;
-  display: none;
+  /* display: none; */
 }
 
 .chabad_navigator_bar ul li a.arrow::after {
