@@ -1816,6 +1816,10 @@ body.section_root .bh {
   display: none;
 }
 
+.chabad_navigator_bar ul li ::after {
+  content: "|";
+}
+
 .chabad_navigator_bar ul li a:hover {
   --tw-text-opacity: 1;
   color: rgba(239, 61, 80, var(--tw-text-opacity));
