@@ -1815,6 +1815,8 @@ body.section_root .bh {
   margin-left: 7px;
   /* display: none; */
   content: " |";
+  height: 0.5rem;
+  overflow: hidden;
 }
 
 /* .chabad_navigator_bar ul li a.arrow::after {
