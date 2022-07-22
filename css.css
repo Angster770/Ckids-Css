@@ -1816,7 +1816,7 @@ body.section_root .bh {
   display: none;
 }
 
-.chabad_navigator_bar ul li.parent ::after {
+.chabad_navigator_bar ul li ::after {
   content: " |";
 }
 
