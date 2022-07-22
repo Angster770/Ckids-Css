@@ -1790,7 +1790,7 @@ body.section_root .bh {
   /* color: rgba(62,64,62,var(--tw-text-opacity)); */
   color: white;
   text-transform: uppercase;
-  font-size: 1.125rem;
+  font-size: small;
   line-height: 1.75rem;
 }
 
