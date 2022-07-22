@@ -1821,7 +1821,13 @@ body.section_root .bh {
 
 /* .chabad_navigator_bar ul li a.arrow::after {
 } */
+.chabad_navigator_bar ul li a:after {
+  content: "|";
+}
 
+.chabad_navigator_bar ul li.parent ::after {
+  content: "|";
+}
 .chabad_navigator_bar ul li a:hover {
   --tw-text-opacity: 1;
   color: rgba(239, 61, 80, var(--tw-text-opacity));
@@ -1834,10 +1840,6 @@ body.section_root .bh {
 
 .chabad_navigator_bar ul li.parent {
   position: relative;
-}
-
-.chabad_navigator_bar ul li.parent ::after {
-  content: "|";
 }
 
 .chabad_navigator_bar ul li.parent .sub_menu {
