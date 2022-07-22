@@ -1792,6 +1792,7 @@ body.section_root .bh {
   text-transform: uppercase;
   font-size: small;
   line-height: 1.75rem;
+  margin-left: 10rem;
 }
 
 .chabad_navigator_bar ul li a.arrow {
@@ -2010,6 +2011,7 @@ body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) .sub_menu {
 
     display: flex;
     align-items: center;
+    margin-left: 10rem;
   }
 }
 
