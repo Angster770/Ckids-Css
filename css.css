@@ -1814,11 +1814,11 @@ body.section_root .bh {
   border-top: 5px solid white;
   margin-left: 7px;
   /* display: none; */
-}
-
-.chabad_navigator_bar ul li a.arrow::after {
   content: " |";
 }
+
+/* .chabad_navigator_bar ul li a.arrow::after {
+} */
 
 .chabad_navigator_bar ul li a:hover {
   --tw-text-opacity: 1;
