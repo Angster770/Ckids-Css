@@ -1792,7 +1792,7 @@ body.section_root .bh {
   text-transform: uppercase;
   font-size: small;
   line-height: 1.75rem;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
 }
 
 .chabad_navigator_bar ul li a.arrow {
