@@ -1761,13 +1761,13 @@ body.section_root .bh {
 
 .chabad_navigator_bar ul li {
   float: left;
-  font-size: 13px;
+  /* font-size: 13px; */
   list-style: none;
   z-index: 2;
 
   float: none;
   font-size: initial;
-  margin-left: 2.5rem;
+  /* margin-left: 2.5rem; */
 }
 
 .chabad_navigator_bar ul li.custom_separator {
