@@ -1829,7 +1829,7 @@ body.section_root .bh {
 /* .chabad_navigator_bar ul li a.arrow::after {
 } */
 .chabad_navigator_bar ul li :after {
-  content: "|";
+  content: "| ";
   height: 0.3rem;
   overflow: hidden;
   padding-bottom: 0.2rem;
