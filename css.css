@@ -2139,7 +2139,7 @@ div#chabad_head > div {
   height: unset;
 } */
 .navi > ul > li + li::before {
-  content: "| ";
+  content: " ";
 }
 
 .content_page .photo img {
