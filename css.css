@@ -2141,9 +2141,9 @@ div#chabad_head > div {
   width: unset;
   height: unset;
 } */
-.navi > ul > li + li::before {
+/* .navi > ul > li + li::before {
   content: " ";
-}
+} */
 
 .content_page .photo img {
   border-radius: 12px;
