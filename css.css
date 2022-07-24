@@ -1829,17 +1829,18 @@ body.section_root .bh {
 /* .chabad_navigator_bar ul li a.arrow::after {
 } */
 .chabad_navigator_bar ul li :after {
-  content: "| ";
+  /* content: "| "; */
   height: 0.3rem;
   overflow: hidden;
   padding-bottom: 0.2rem;
 }
 
 .chabad_navigator_bar ul li.parent ::after {
-  content: "| ";
+  /* content: "| "; */
   height: 0.3rem;
   overflow: hidden;
   margin-bottom: 0.3rem;
+  padding-right: 0.5rem;
 }
 .chabad_navigator_bar ul li a:hover {
   --tw-text-opacity: 1;
