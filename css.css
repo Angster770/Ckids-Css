@@ -1840,7 +1840,6 @@ body.section_root .bh {
   height: 0.3rem;
   overflow: hidden;
   margin-bottom: 0.3rem;
-  padding-right: 0.5rem;
 }
 .chabad_navigator_bar ul li a:hover {
   --tw-text-opacity: 1;
@@ -1854,6 +1853,7 @@ body.section_root .bh {
 
 .chabad_navigator_bar ul li.parent {
   position: relative;
+  padding-right: 0.5rem;
 }
 
 .chabad_navigator_bar ul li.parent .sub_menu {
