@@ -2090,6 +2090,10 @@ body.mobile .article-header {
   width: 100%;
 }
 
+.co_photo_gallery a img {
+  content: url("imgs/path1386.jpg");
+}
+
 div#co_photo_gallery .co_photo_gallery_footer {
   justify-content: center;
   display: flex;
