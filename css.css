@@ -1822,6 +1822,7 @@ body.section_root .bh {
   height: 0.5rem;
   overflow: hidden;
   font-size: small;
+  display: none;
 }
 
 /* .chabad_navigator_bar ul li a.arrow::after {
