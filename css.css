@@ -1833,7 +1833,7 @@ body.section_root .bh {
   padding-bottom: 0.2rem;
 }
 
-.chabad_navigator_bar ul li.parent ::after {
+.chabad_navigator_bar ul ::after {
   content: "| ";
   height: 0.3rem;
   overflow: hidden;
