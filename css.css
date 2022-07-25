@@ -2521,10 +2521,10 @@ article.content,
 
 @media (min-width: 768px) {
   /* Top nav bar head */
-  .parent > a ::before {
+  /* .parent > a ::before {
     content: "|";
     padding: 0 !important;
-  }
+  } */
 
   .co_calendar_body .co_calendar_gradient .item {
     font-size: 18px;
