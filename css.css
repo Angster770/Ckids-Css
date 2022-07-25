@@ -2404,6 +2404,8 @@ article.content,
   font-weight: 700;
   text-decoration: none !important;
   transition: all 0.3s ease-in-out;
+  height: 8rem;
+  width: 12rem;
 }
 
 .co_index .item .title a:hover {
