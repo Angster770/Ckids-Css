@@ -784,6 +784,11 @@ select {
 .flex-wrap {
   flex-wrap: wrap;
 }
+
+.width-min-content {
+  width: min-content;
+}
+
 .items-center {
   align-items: center;
 }
