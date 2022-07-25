@@ -2308,6 +2308,7 @@ div.chabad_left_column #ContentArea {
 .co_index .item .title,
 .co_index .item .title a {
   color: #2e509f;
+  border-radius: 12px;
 }
 
 .co_body .category_title,
