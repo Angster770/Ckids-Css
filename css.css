@@ -2618,4 +2618,7 @@ article.content,
   #navigation.chabad_navigator_bar #menu {
     margin-left: 5rem !important;
   }
+  #img {
+    width: 5rem;
+  }
 }
