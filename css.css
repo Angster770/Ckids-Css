@@ -1782,7 +1782,7 @@ body.section_root .bh {
   font-family: arial;
   font-weight: 700;
   height: 100%;
-  padding: 0 4px;
+  padding: 0 0px 1rem;
   text-decoration: none;
 
   float: none;
