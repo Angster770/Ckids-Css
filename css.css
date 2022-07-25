@@ -2613,7 +2613,7 @@ article.content,
 /* @media () {
   
 } */
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 640px) {
   #navigation.chabad_navigator_bar #menu {
     margin-left: 5rem !important;
   }
