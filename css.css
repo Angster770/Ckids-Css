@@ -1525,7 +1525,7 @@ select {
     justify-content: center;
   }
   .sm\:justify-between {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .sm\:rounded-lg {
     border-radius: 0.5rem;
