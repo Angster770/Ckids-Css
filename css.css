@@ -1481,6 +1481,10 @@ select {
   color: rgba(0, 167, 157, var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
+  #navigation.chabad_navigator_bar #menu {
+    margin-left: 5rem !important;
+  }
+
   .sm\:-my-px {
     margin-bottom: -1px;
     margin-top: -1px;
