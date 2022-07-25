@@ -1783,7 +1783,7 @@ body.section_root .bh {
   font-weight: 700;
   height: 100%;
   /* padding: 0 0px 1rem; */
-  padding-right: 1rem;
+  padding-right: 0.1rem;
   text-decoration: none;
 
   float: none;
