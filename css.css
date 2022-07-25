@@ -2614,11 +2614,3 @@ article.content,
 /* @media () {
   
 } */
-@media only screen and (max-width: 680px) {
-  #navigation.chabad_navigator_bar #menu {
-    margin-left: 5rem !important;
-  }
-  #img {
-    width: 5rem;
-  }
-}
