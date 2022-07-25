@@ -1801,7 +1801,7 @@ body.section_root .bh {
 
 .chabad_navigator_bar ul li a.arrow {
   background: url("https://w2.chabad.org/images/shluchim/minisites/down_triangle_black.gif") right 5px center no-repeat;
-  padding-right: 26px;
+  padding-right: 0.1rem !important;
 
   display: flex;
   align-items: center;
