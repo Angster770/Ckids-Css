@@ -2640,6 +2640,10 @@ article.content,
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
   }
+
+  .co_title_calendar > a {
+    font-size: large;
+  }
 }
 /* .co_calendar_body {
  display: grid;
