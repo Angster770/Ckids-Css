@@ -2661,6 +2661,8 @@ article.content,
   body.mobile #navigation.chabad_navigator_bar #menu {
     height: 36px;
     width: fit-content !important;
+  }
+  body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) {
     background-color: #2b3579 !important;
   }
 }
