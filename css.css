@@ -2636,7 +2636,7 @@ article.content,
     margin-left: 1rem;
   }
 }
-@media (min-width: 300px) {
+@media only screen and (min-width: 300px) {
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
   }
