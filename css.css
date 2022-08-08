@@ -2654,6 +2654,11 @@ article.content,
   .pr3 {
     padding-right: 3rem;
   }
+  #navigation.chabad_navigator_bar #menu {
+    height: 36px;
+    width: fit-content !important;
+    background-color: #2b3579 !important;
+  }
 }
 /* .co_calendar_body {
  display: grid;
