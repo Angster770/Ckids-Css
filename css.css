@@ -2072,6 +2072,8 @@ body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) .sub_menu {
 @media (min-width: 768px) {
   #navigation.chabad_navigator_bar #menu {
     height: 36px;
+    width: fit-content;
+    background-color: #2b3579;
     line-height: 36px;
     margin: 0;
     padding: 0;
