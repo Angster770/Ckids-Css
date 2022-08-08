@@ -2060,7 +2060,7 @@ body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) {
 }
 
 body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) a {
-  display: block;
+  /* display: block; */
   text-align: center;
 }
 
