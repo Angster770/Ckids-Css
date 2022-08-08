@@ -2644,13 +2644,14 @@ article.content,
   .co_title_calendar > a {
     font-size: large;
   }
-  /* .testimonial_container {
+
+  .testimonial_container {
     transform: translateX(128%);
   }
 
   .pr3 {
     padding-right: 3rem;
-  } */
+  }
 }
 /* .co_calendar_body {
  display: grid;
