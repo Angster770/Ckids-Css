@@ -2674,6 +2674,10 @@ article.content,
   #chabad_head {
     display: flex;
   }
+
+  div#chabad_head > div {
+    display: flex;
+  }
   /* #menu > li > a ::before {
     visibility: visible;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
