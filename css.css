@@ -2668,7 +2668,7 @@ article.content,
     opacity: 0;
   }
   .chabad_navigator_bar {
-    margin-left: 15rem;
+    /* margin-left: 15rem; */
   }
 
   #chabad_head {
