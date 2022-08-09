@@ -1867,8 +1867,8 @@ body.section_root .bh {
 }
 
 .chabad_navigator_bar ul li a.arrow {
-  background: url("https://w2.chabad.org/images/shluchim/minisites/down_triangle_black.gif")
-    right 5px center no-repeat;
+  /* background: url("https://w2.chabad.org/images/shluchim/minisites/down_triangle_black.gif") */
+  /* right 5px center no-repeat; */
   display: flex;
   align-items: center;
   background: none;
@@ -1876,7 +1876,7 @@ body.section_root .bh {
 }
 
 .chabad_navigator_bar ul li a:after {
-  content: " ";
+  /* content: " "; */
   width: 0;
   /* height: 0; */
   border-left: 5px solid transparent;
