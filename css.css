@@ -1901,7 +1901,7 @@ body.section_root .bh {
 }
 
 .chabad_navigator_bar ul ::after {
-  content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
+  /* content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important; */
   height: 0.3rem;
   overflow: hidden;
   margin-bottom: 0.3rem;
