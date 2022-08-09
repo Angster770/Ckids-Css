@@ -2684,6 +2684,11 @@ article.content,
   div#chabad_head > div {
     display: flex;
   }
+
+  .mobile_grid {
+    display: grid;
+    grid: repeat(2, 60px) / auto-flow 80px;
+  }
   /* #menu > li > a ::before {
     visibility: visible;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
