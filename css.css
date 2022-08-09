@@ -2689,6 +2689,15 @@ article.content,
     display: grid;
     grid: repeat(2, 60px) / auto-flow 80px;
   }
+
+  .co_calendar_body {
+    display: flex !important;
+    flex-direction: column;
+    height: 19rem;
+    overflow: hidden;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
   /* #menu > li > a ::before {
     visibility: visible;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
