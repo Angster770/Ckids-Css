@@ -2674,9 +2674,9 @@ article.content,
     margin-bottom: 0.3rem;
   }
 
-  /* body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
+  body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
-  } */
+  }
 }
 /* .co_calendar_body {
  display: grid;
