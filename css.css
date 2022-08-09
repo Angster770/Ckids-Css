@@ -2664,9 +2664,9 @@ article.content,
     position: absolute !important;
   }
 
-  /* #menu > li > a {
-    visibility: hidden;
-  } */
+  #menu > li > a {
+    opacity: 0;
+  }
 
   /* #menu > li > a ::before {
     visibility: visible;
