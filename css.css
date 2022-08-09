@@ -2654,9 +2654,9 @@ article.content,
   .pr3 {
     padding-right: 3rem;
   }
-  body.mobile div#chabad_head .chabad_navigator_bar {
-    height: 0rem !important;
-  }
+  /* body.mobile div#chabad_head .chabad_navigator_bar {
+    height: 0rem !important; 
+  } */
   body.mobile #navigation.chabad_navigator_bar #menu {
     height: 36px;
     width: fit-content !important;
