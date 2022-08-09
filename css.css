@@ -2723,6 +2723,58 @@ article.content,
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
   } */
 }
+@media only screen and (max-width: 639px) and (min-width: 481px) {
+  .co_calendar_body .co_calendar_gradient .co_calendar_text {
+    margin-left: 1rem;
+  }
+
+  .co_title_calendar > a {
+    font-size: large;
+  }
+
+  .testimonial_container {
+    transform: translateX(128%);
+  }
+
+  .pr3 {
+    padding-right: 3rem;
+  }
+  /* body.mobile div#chabad_head .chabad_navigator_bar {
+    height: 0rem !important; 
+  } */
+  body.mobile #navigation.chabad_navigator_bar #menu {
+    height: 36px;
+    width: fit-content !important;
+  }
+  body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) {
+    background-color: #2b3579 !important;
+  }
+
+  #img_nav {
+    height: 2rem !important;
+    position: absolute !important;
+  }
+
+  body.mobile .chabad_navigator_bar #menu .item.heading a {
+    opacity: 0;
+  }
+  /* .chabad_navigator_bar {
+    /* margin-left: 15rem; 
+  } */
+
+  #chabad_head {
+    display: flex;
+  }
+
+  div#chabad_head > div {
+    display: flex;
+  }
+
+  .mobile_grid {
+    display: grid;
+    grid: repeat(2, 60px) / auto-flow 80px;
+  }
+}
 /* .co_calendar_body {
  display: grid;
  grid-template-columns: repeat(2,minmax(0,1fr));
