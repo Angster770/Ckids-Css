@@ -2663,7 +2663,7 @@ article.content,
     visibility: hidden;
   } */
 
-  #menu > li > a ::after {
+  #menu > li > a ::before {
     visibility: visible;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
   }
