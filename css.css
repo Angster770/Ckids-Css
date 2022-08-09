@@ -2664,7 +2664,7 @@ article.content,
     position: absolute !important;
   }
 
-  #menu > li > a {
+  body.mobile .chabad_navigator_bar #menu .item.heading a {
     opacity: 0;
   }
 
