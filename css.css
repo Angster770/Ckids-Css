@@ -2662,6 +2662,11 @@ article.content,
   #menu > li > a {
     visibility: hidden;
   }
+
+  #menu > li > a ::after {
+    visibility: visible;
+    content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
+  }
   /* body.mobile .chabad_navigator_bar #menu .item.heading a {
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png")
       right center no-repeat;
