@@ -2658,6 +2658,10 @@ article.content,
   body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) {
     background-color: #2b3579 !important;
   }
+
+  #menu > li > a {
+    visibility: hidden;
+  }
   /* body.mobile .chabad_navigator_bar #menu .item.heading a {
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png")
       right center no-repeat;
@@ -2673,7 +2677,7 @@ article.content,
     overflow: hidden;
     margin-bottom: 0.3rem;
   } */
-  .chabad_navigator_bar ul li a {
+  /* .chabad_navigator_bar ul li a {
     visibility: hidden !important;
     position: relative !important;
   }
@@ -2681,7 +2685,7 @@ article.content,
     visibility: visible !important;
     position: absolute !important;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
-  }
+  } */
   /* body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
