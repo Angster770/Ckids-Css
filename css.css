@@ -1540,9 +1540,6 @@ select {
   color: rgba(0, 167, 157, var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
-  #img_nav {
-    display: none;
-  }
   /* #navigation.chabad_navigator_bar #menu {
     margin-left: 5rem !important;
   } */
