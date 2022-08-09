@@ -2723,7 +2723,7 @@ article.content,
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
   } */
 }
-@media only screen and (min-width: 481px) and (max-width: 639px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
   }
