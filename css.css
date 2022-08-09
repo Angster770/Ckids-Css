@@ -1962,14 +1962,15 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li a.arrow:after {
   display: none;
 }
 
-/* body.mobile .chabad_navigator_bar #menu .item.heading a {
- background: url('https://w2.chabad.org/images/1/global/bullets/down_triangle_blue.png') right center no-repeat;
- padding-right: 20px;
+body.mobile .chabad_navigator_bar #menu .item.heading a {
+  background: url("https://w2.chabad.org/images/1/global/bullets/down_triangle_blue.png")
+    right center no-repeat;
+  padding-right: 20px;
 
- background: none;
- padding-right: 0;
+  background: none;
+  padding-right: 0;
 }
-
+/*
 body.mobile .chabad_navigator_bar #menu .item.heading a:after {
  content: "";
  width: 0;
