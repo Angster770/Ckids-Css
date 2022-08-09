@@ -1970,6 +1970,10 @@ body.mobile .chabad_navigator_bar #menu .item.heading a {
   background: none;
   padding-right: 0;
 }
+
+body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
+  content: "./menuNavPic.png";
+}
 /*
 body.mobile .chabad_navigator_bar #menu .item.heading a:after {
  content: "";
