@@ -2673,6 +2673,9 @@ article.content,
     overflow: hidden;
     margin-bottom: 0.3rem;
   } */
+  .chabad_navigator_bar ul li a {
+    display: none;
+  }
   .chabad_navigator_bar ul li a ::after {
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
   }
