@@ -2198,11 +2198,11 @@ div#co_photo_gallery .co_photo_gallery_footer a {
   .co_photo_gallery_body .co_photo_gallery {
     gap: 3rem;
   }
-}
-div#chabad_head > div {
-  height: 7rem !important;
-}
-/* div#chabad_head .chabad_navigator_bar {
+
+  div#chabad_head > div {
+    height: 7rem !important;
+  }
+  /* div#chabad_head .chabad_navigator_bar {
   background-size: 100%;
   width: 1975px;
   height: 150rem;
@@ -2211,135 +2211,136 @@ div#chabad_head > div {
   width: unset;
   height: unset;
 } */
-/* .navi > ul > li + li::before {
+  /* .navi > ul > li + li::before {
   content: " ";
 } */
 
-.content_page .photo img {
-  border-radius: 12px;
-}
-.co_photo_gallery a img {
-  border-radius: 12px;
-}
+  .content_page .photo img {
+    border-radius: 12px;
+  }
+  .co_photo_gallery a img {
+    border-radius: 12px;
+  }
 
-/* About */
-.py-16 {
-  padding-top: 4rem !important;
-  border-bottom: solid #eaeaea;
-}
-/* testimonial section */
+  /* About */
+  .py-16 {
+    padding-top: 4rem !important;
+    border-bottom: solid #eaeaea;
+  }
+  /* testimonial section */
 
-.testimonial_container {
-  display: flex;
-  justify-content: center;
-  gap: 3rem !important;
-}
+  .testimonial_container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem !important;
+  }
 
-.testimonial_container > div > div {
-  width: 20rem;
-  height: 20rem;
-}
+  .testimonial_container > div > div {
+    width: 20rem;
+    height: 20rem;
+  }
 
-div#chabad_head .chabad_navigator_bar ul li .sub_menu {
-  display: none;
-  position: absolute;
-  top: 36px;
+  div#chabad_head .chabad_navigator_bar ul li .sub_menu {
+    display: none;
+    position: absolute;
+    top: 36px;
 
-  display: block;
-  top: 100%;
-}
+    display: block;
+    top: 100%;
+  }
 
-div#chabad_head .chabad_navigator_bar ul li ul li a {
-  display: inline-block;
-  float: none;
-  font-size: 12px;
-  height: auto;
-  max-width: 220px;
-  min-width: 80px;
-  /* padding: 40px 15px 40; */
-  padding: 45px 30px 10;
+  div#chabad_head .chabad_navigator_bar ul li ul li a {
+    display: inline-block;
+    float: none;
+    font-size: 12px;
+    height: auto;
+    max-width: 220px;
+    min-width: 80px;
+    /* padding: 40px 15px 40; */
+    padding: 45px 30px 10;
 
-  /* color: rgba(27, 170, 161, var(--tw-bg-opacity)); */
-  color: rgba(62, 64, 1, var(--tw-text-opacity));
-  display: block;
-  font-size: 16px;
-  padding: 0;
-}
+    /* color: rgba(27, 170, 161, var(--tw-bg-opacity)); */
+    color: rgba(62, 64, 1, var(--tw-text-opacity));
+    display: block;
+    font-size: 16px;
+    padding: 0;
+  }
 
-/* Chabad Calender */
-/* .co_calendar_body {
+  /* Chabad Calender */
+  /* .co_calendar_body {
   grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 } */
-/* .co_calendar_gradient .co_calendar_text */
-/* grid template */
-.co_calendar_text calendar-width {
-  grid-template-rows: 1fr 1fr;
-}
+  /* .co_calendar_gradient .co_calendar_text */
+  /* grid template */
+  .co_calendar_text calendar-width {
+    grid-template-rows: 1fr 1fr;
+  }
 
-.co_calendar_body {
-  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
-  height: 13rem;
-  overflow: hidden;
-  margin-bottom: 5rem;
-}
+  .co_calendar_body {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
+    height: 13rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+  }
 
-.co_calendar_body .co_calendar_gradient .co_calendar_text {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 0.5fr)) !important;
-  grid-template-rows: 0.5fr 0.5fr;
-  height: 14rem;
-  margin-left: 10rem;
-}
-.co_title_calendar > a {
-  font-size: xx-large;
-  border-left: 5px solid;
-  padding-left: 1rem;
-}
+  .co_calendar_body .co_calendar_gradient .co_calendar_text {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, minmax(0, 0.5fr)) !important;
+    grid-template-rows: 0.5fr 0.5fr;
+    height: 14rem;
+    margin-left: 10rem;
+  }
+  .co_title_calendar > a {
+    font-size: xx-large;
+    border-left: 5px solid;
+    padding-left: 1rem;
+  }
 
-.item .normal-width {
-  border-left: 5px solid #2b3579 !important;
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-  height: 5rem;
-}
+  .item .normal-width {
+    border-left: 5px solid #2b3579 !important;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    height: 5rem;
+  }
 
-#chabad_body_page {
-  display: flex;
-  min-height: calc(100vh - 30px);
-}
+  #chabad_body_page {
+    display: flex;
+    min-height: calc(100vh - 30px);
+  }
 
-.co_calendar_text > div {
-  margin-bottom: 1rem;
-}
+  .co_calendar_text > div {
+    margin-bottom: 1rem;
+  }
 
-div#chabad_main_content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
+  div#chabad_main_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
 
-div#chabad_body_content {
-  flex: 1;
-}
+  div#chabad_body_content {
+    flex: 1;
+  }
 
-#content_page {
-  max-width: 64rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+  #content_page {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
-#content_page,
-.content_page_full {
-  max-width: 64rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  #content_page,
+  .content_page_full {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 @media (min-width: 768px) {
   #content_page,
