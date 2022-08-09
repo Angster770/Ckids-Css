@@ -1972,7 +1972,7 @@ body.mobile .chabad_navigator_bar #menu .item.heading a {
 }
 
 body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
-  content: "./menuNavPic.png";
+  background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
 }
 /*
 body.mobile .chabad_navigator_bar #menu .item.heading a:after {
