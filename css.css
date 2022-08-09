@@ -2666,18 +2666,20 @@ article.content,
   /* background: none; */
   /* padding-right: 0; */
   /* } */
-  .chabad_navigator_bar ul ::after {
+  /* .chabad_navigator_bar ul ::after {
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png")
       right center no-repeat;
     height: 0.3rem;
     overflow: hidden;
     margin-bottom: 0.3rem;
+  } */
+  .chabad_navigator_bar ul li a ::after {
+    content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
   }
-
-  body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
+  /* body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
-  }
+  } */
 }
 /* .co_calendar_body {
  display: grid;
