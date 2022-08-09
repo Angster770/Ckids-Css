@@ -2634,6 +2634,9 @@ article.content,
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
   }
+  #img_nav {
+    display: none;
+  }
 }
 @media only screen and (max-width: 480px) {
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
