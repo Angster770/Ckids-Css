@@ -2667,7 +2667,9 @@ article.content,
   body.mobile .chabad_navigator_bar #menu .item.heading a {
     opacity: 0;
   }
-
+  .chabad_navigator_bar {
+    margin-left: 15rem;
+  }
   /* #menu > li > a ::before {
     visibility: visible;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
