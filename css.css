@@ -1962,18 +1962,6 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li a.arrow:after {
   display: none;
 }
 
-body.mobile .chabad_navigator_bar #menu .item.heading a {
-  background: url("https://w2.chabad.org/images/1/global/bullets/down_triangle_blue.png")
-    right center no-repeat;
-  padding-right: 20px;
-  display: none;
-  background: none;
-  padding-right: 0;
-}
-
-body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
-  background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
-}
 /*
 body.mobile .chabad_navigator_bar #menu .item.heading a:after {
  content: "";
@@ -2669,6 +2657,18 @@ article.content,
   }
   body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) {
     background-color: #2b3579 !important;
+  }
+  body.mobile .chabad_navigator_bar #menu .item.heading a {
+    background: url("https://w2.chabad.org/images/1/global/bullets/down_triangle_blue.png")
+      right center no-repeat;
+    padding-right: 20px;
+    display: none;
+    background: none;
+    padding-right: 0;
+  }
+
+  body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
+    background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
   }
 }
 /* .co_calendar_body {
