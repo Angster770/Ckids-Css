@@ -2678,8 +2678,8 @@ article.content,
     position: relative !important;
   }
   .chabad_navigator_bar ul li a ::after {
-    visibility: visible;
-    position: absolute;
+    visibility: visible !important;
+    position: absolute !important;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
   }
   /* body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
