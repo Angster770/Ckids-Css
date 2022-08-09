@@ -2659,14 +2659,20 @@ article.content,
     background-color: #2b3579 !important;
   }
 
+  .image_nav {
+    height: 2rem;
+    position: absolute;
+  }
+
   /* #menu > li > a {
     visibility: hidden;
   } */
 
-  #menu > li > a ::before {
+  /* #menu > li > a ::before {
     visibility: visible;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
-  }
+  } */
+
   /* body.mobile .chabad_navigator_bar #menu .item.heading a {
     background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png")
       right center no-repeat;
