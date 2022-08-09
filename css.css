@@ -2660,8 +2660,8 @@ article.content,
   }
 
   .image_nav {
-    height: 2rem;
-    position: absolute;
+    height: 2rem !important;
+    position: absolute !important;
   }
 
   /* #menu > li > a {
