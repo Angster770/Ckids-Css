@@ -2654,6 +2654,9 @@ article.content,
   .pr3 {
     padding-right: 3rem;
   }
+  #navigation {
+    height: 0rem;
+  }
   body.mobile #navigation.chabad_navigator_bar #menu {
     height: 36px;
     width: fit-content !important;
