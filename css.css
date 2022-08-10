@@ -2641,6 +2641,12 @@ article.content,
     margin-left: 1rem;
   }
 }
+
+@media (max-width: 767px) {
+  .slider_width {
+    width: 41.666667%;
+  }
+}
 @media only screen and (max-width: 480px) {
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
