@@ -2713,7 +2713,7 @@ article.content,
     height: 2rem !important;
   }
 
-  /* testimoails people say */
+  /* testimonials start */
   /* testimonial white boxes */
   .testimonial_container > div > div {
     width: 10rem;
@@ -2733,6 +2733,29 @@ article.content,
   .p-5 {
     margin-bottom: 0rem;
   }
+  /* end of testimonials */
+
+  /* photo start */
+
+  /* getting grid with mobile */
+  .chabad_box_text_body,
+  .chabad_updates_body,
+  .co_calendar_body,
+  .co_photo_gallery_body .co_photo_gallery {
+    gap: 3rem;
+  }
+
+  .chabad_box_text_body,
+  .chabad_updates_body,
+  .co_calendar_body,
+  .co_photo_gallery_body .co_photo_gallery {
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: grid;
+    margin-top: 2.5rem;
+  }
+
+  /* photo end */
 }
 /* more than mobile protrait */
 @media (min-width: 481px) and (max-width: 1014px) {
