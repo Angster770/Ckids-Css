@@ -2719,9 +2719,10 @@ article.content,
     width: 10rem;
     height: 10rem;
   }
-  /* pushing the white testimonial over to right */
+  /* pushing the white testimonial over to right and lessening gap */
   .testimonial_container {
     transform: translateX(30%);
+    gap: 1rem !important;
   }
 }
 /* more than mobile protrait */
