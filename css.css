@@ -2863,6 +2863,13 @@ article.content,
     align-items: center;
     margin-left: 30rem;
   }
+  body.mobile #navigation.chabad_navigator_bar #menu {
+    height: 36px;
+    width: fit-content !important;
+  }
+  body.mobile #menu > li.item.parent:not(:first-child) {
+    display: flex !important;
+  }
 }
 /* .co_calendar_body {
  display: grid;
