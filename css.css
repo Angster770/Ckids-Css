@@ -2730,12 +2730,12 @@ article.content,
     margin-left: 5rem;
   }
 
-  .co_calendar_body .co_calendar_gradient .item {
+  /* .co_calendar_body .co_calendar_gradient .item {
     display: flex;
     flex-direction: column;
     height: 3rem;
     gap: 2rem;
-  }
+  } */
 
   /* calender events end */
   /* photo start */
