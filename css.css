@@ -2709,7 +2709,7 @@ article.content,
   /* the top nav bar css */
   #navigation.chabad_navigator_bar #menu {
     height: 36px;
-    width: fit-content !important;
+    width: auto !important;
     background-color: #2b3579 !important;
     line-height: 36px;
     margin: 0;
