@@ -2735,6 +2735,19 @@ article.content,
   }
   /* end of testimonials */
 
+  /*calender events start */
+
+  .co_calendar_body .co_calendar_gradient .co_calendar_text {
+    margin-left: 5rem;
+  }
+
+  .co_calendar_body .co_calendar_gradient .item {
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+  }
+
+  /* calender events end */
   /* photo start */
 
   /* getting grid with mobile */
