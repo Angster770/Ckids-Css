@@ -2709,6 +2709,24 @@ article.content,
 }
 @media (min-width: 481px) and (max-width: 767px) {
   /* the top nav bar css */
+  #navigation.chabad_navigator_bar #menu {
+    height: 36px;
+    width: fit-content !important;
+    background-color: #2b3579 !important;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+
+    height: auto;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    margin-left: 30rem;
+  }
+
   body.mobile #menu > li.item.parent:not(:first-child) {
     display: flex !important;
   }
