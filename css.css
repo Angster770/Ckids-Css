@@ -2705,7 +2705,7 @@ article.content,
     height: 2rem !important;
   }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 1014px) {
   /* the top nav bar css */
   #navigation.chabad_navigator_bar #menu {
     height: 36px;
