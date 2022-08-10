@@ -2647,6 +2647,8 @@ article.content,
     width: 41.666667%;
   }
 }
+
+/* mobile portrati */
 @media only screen and (max-width: 480px) {
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
@@ -2710,7 +2712,19 @@ article.content,
     width: 5.3rem !important;
     height: 2rem !important;
   }
+
+  /* testimoails people say */
+  /* testimonial white boxes */
+  .testimonial_container > div > div {
+    width: 10rem;
+    height: 10rem;
+  }
+  /* pushing the white testimonial over to right */
+  .testimonial_container {
+    transform: translateX(30%);
+  }
 }
+/* more than mobile protrait */
 @media (min-width: 481px) and (max-width: 1014px) {
   /* the top nav bar css */
   #navigation.chabad_navigator_bar #menu {
@@ -2779,6 +2793,8 @@ article.content,
     grid: repeat(2, 60px) / auto-flow 80px;
   }
 }
+
+/* more than landscape mobile (tablet) */
 @media (min-width: 1015px) and (max-width: 1159px) {
   /* the top nav bar css */
   #navigation.chabad_navigator_bar #menu {
@@ -2849,7 +2865,7 @@ article.content,
     grid: repeat(2, 60px) / auto-flow 80px;
   }
 }
-
+/* between tablet and full screen  */
 @media (min-width: 1159px) and (max-width: 2579px) {
   /* the top nav bar css */
   #navigation.chabad_navigator_bar #menu {
