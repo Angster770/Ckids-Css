@@ -1607,6 +1607,7 @@ select {
     text-align: right;
   }
 }
+/* computer? */
 @media (min-width: 768px) {
   .md\:order-1 {
     order: 1;
@@ -1767,6 +1768,10 @@ select {
     font-size: 3rem;
     line-height: 1;
     padding-top: 3rem;
+  }
+
+  .mobile_grid {
+    display: flex;
   }
 }
 @media (min-width: 1024px) {
