@@ -2093,24 +2093,6 @@ body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) .sub_menu {
     margin-left: 0;
   }
 
-  #content_page,
-  .content_page_full {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-  }
-
-  .chabad_updates_head,
-  .co_calendar_head,
-  .co_photo_gallery_head,
-  .co_section_head {
-    color: #fff;
-    font-size: 20px;
-    margin: 0 -1px;
-    padding: 0 20px;
-
-    display: none;
-  }
-
   .chabad_box_text_body,
   .chabad_updates_body,
   .co_calendar_body,
@@ -2128,6 +2110,23 @@ body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) .sub_menu {
     display: grid;
     margin-top: 2.5rem;
   }
+}
+#content_page,
+.content_page_full {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.chabad_updates_head,
+.co_calendar_head,
+.co_photo_gallery_head,
+.co_section_head {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 -1px;
+  padding: 0 20px;
+
+  display: none;
 }
 .co_photo_gallery a {
   display: inline-block;
