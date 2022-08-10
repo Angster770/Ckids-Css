@@ -2904,6 +2904,9 @@ article.content,
     height: 36px;
     width: fit-content !important;
   }
+  body.mobile .chabad_navigator_bar #menu .item.heading a {
+    opacity: 0;
+  }
 }
 /* .co_calendar_body {
  display: grid;
