@@ -1608,7 +1608,7 @@ select {
   }
 }
 /* computer? */
-@media (min-width: 300px) {
+@media (min-width: 768px) {
   .md\:order-1 {
     order: 1;
   }
