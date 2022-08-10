@@ -2689,15 +2689,6 @@ article.content,
     grid: repeat(2, 60px) / auto-flow 80px;
   }
 
-  .co_calendar_body {
-    display: flex !important;
-    flex-direction: column;
-    height: 19rem;
-    overflow: hidden;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-  }
-
   div#chabad_head .chabad_navigator_bar {
     width: 5.3rem !important;
     height: 2rem !important;
@@ -2731,12 +2722,14 @@ article.content,
     margin-left: 5rem;
   }
 
-  /* .co_calendar_body .co_calendar_gradient .item {
-    display: flex;
+  .co_calendar_body {
+    display: flex !important;
     flex-direction: column;
-    height: 3rem;
-    gap: 2rem;
-  } */
+    height: 15rem;
+    overflow: hidden;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
 
   /* calender events end */
   /* photo start */
