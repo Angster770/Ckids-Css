@@ -2843,6 +2843,27 @@ article.content,
     grid: repeat(2, 60px) / auto-flow 80px;
   }
 }
+
+@media (min-width: 1159px) and (max-width: 2579px) {
+  /* the top nav bar css */
+  #navigation.chabad_navigator_bar #menu {
+    height: 36px;
+    width: fit-content !important;
+    background-color: #2b3579 !important;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+
+    height: auto;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+    margin-left: 30rem;
+  }
+}
 /* .co_calendar_body {
  display: grid;
  grid-template-columns: repeat(2,minmax(0,1fr));
