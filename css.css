@@ -2725,16 +2725,17 @@ article.content,
   }
   /* end of testimonials */
 
-  /*Calender events start */
+  /*Calender events start mobile*/
 
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 5rem;
   }
 
   .co_calendar_body .co_calendar_gradient .item {
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
     height: 3rem;
+    gap: 2rem;
   }
 
   /* calender events end */
