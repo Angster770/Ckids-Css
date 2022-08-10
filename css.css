@@ -2701,6 +2701,10 @@ article.content,
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
+  div#chabad_head .chabad_navigator_bar {
+    width: 5rem !important;
+    height: 2rem !important;
+  }
   /* #menu > li > a ::before {
     visibility: visible;
     content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
