@@ -2773,7 +2773,7 @@ article.content,
     grid: repeat(2, 60px) / auto-flow 80px;
   }
 }
-@media (min-width: 1015px) and (max-width: 100vw) {
+@media (min-width: 1015px) and (max-width: 1159px) {
   /* the top nav bar css */
   #navigation.chabad_navigator_bar #menu {
     height: 36px;
