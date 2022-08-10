@@ -2710,7 +2710,7 @@ article.content,
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   /* the top nav bar css */
   body.mobile #menu > li.item.parent:not(:first-child) {
-    display: flex;
+    display: flex !important;
   }
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
@@ -2760,7 +2760,7 @@ article.content,
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   body.mobile #menu > li.item.parent:not(:first-child) {
-    display: flex;
+    display: flex !important;
   }
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
