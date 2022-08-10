@@ -2722,7 +2722,7 @@ article.content,
 
     display: flex;
     align-items: center;
-    margin-left: 26rem;
+    /* margin-left: 26rem; */
   }
 
   body.mobile #menu > li.item.parent:not(:first-child) {
