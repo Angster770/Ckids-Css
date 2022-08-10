@@ -2701,50 +2701,17 @@ article.content,
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
-  /* body.mobile div#chabad_head .chabad_navigator_bar {
-    width: 0rem !important;
-    height: 0rem !important;
-  } */
 
   div#chabad_head .chabad_navigator_bar {
     width: 5.3rem !important;
     height: 2rem !important;
   }
-  /* #menu > li > a ::before {
-    visibility: visible;
-    content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
-  } */
-
-  /* body.mobile .chabad_navigator_bar #menu .item.heading a {
-    background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png")
-      right center no-repeat;
-    padding-right: 20px;
-    /* display: none; */
-  /* background: none; */
-  /* padding-right: 0; */
-  /* } */
-  /* .chabad_navigator_bar ul ::after {
-    content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png")
-      right center no-repeat;
-    height: 0.3rem;
-    overflow: hidden;
-    margin-bottom: 0.3rem;
-  } */
-  /* .chabad_navigator_bar ul li a {
-    visibility: hidden !important;
-    position: relative !important;
-  }
-  .chabad_navigator_bar ul li a ::after {
-    visibility: visible !important;
-    position: absolute !important;
-    content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
-  } */
-  /* body.mobile .chabad_navigator_bar #menu .item.heading a ::after {
-    content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important;
-    background: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png");
-  } */
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* the top nav bar css */
+  body.mobile #menu > li.item.parent:not(:first-child) {
+    display: flex;
+  }
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
   }
@@ -2760,9 +2727,7 @@ article.content,
   .pr3 {
     padding-right: 3rem;
   }
-  /* body.mobile div#chabad_head .chabad_navigator_bar {
-    height: 0rem !important; 
-  } */
+
   body.mobile #navigation.chabad_navigator_bar #menu {
     height: 36px;
     width: fit-content !important;
@@ -2779,9 +2744,6 @@ article.content,
   body.mobile .chabad_navigator_bar #menu .item.heading a {
     opacity: 0;
   }
-  /* .chabad_navigator_bar {
-    /* margin-left: 15rem; 
-  } */
 
   #chabad_head {
     display: flex;
@@ -2797,6 +2759,9 @@ article.content,
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body.mobile #menu > li.item.parent:not(:first-child) {
+    display: flex;
+  }
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 1rem;
   }
@@ -2812,9 +2777,7 @@ article.content,
   .pr3 {
     padding-right: 3rem;
   }
-  /* body.mobile div#chabad_head .chabad_navigator_bar {
-    height: 0rem !important; 
-  } */
+
   body.mobile #navigation.chabad_navigator_bar #menu {
     height: 36px;
     width: fit-content !important;
