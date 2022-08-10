@@ -2128,68 +2128,68 @@ body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) .sub_menu {
     display: grid;
     margin-top: 2.5rem;
   }
+}
+.co_photo_gallery a {
+  display: inline-block;
+  float: none !important;
+  margin: 0 5px 10px;
+  overflow: hidden;
 
-  .co_photo_gallery a {
-    display: inline-block;
-    float: none !important;
-    margin: 0 5px 10px;
-    overflow: hidden;
+  margin: 0;
+  --tw-aspect-h: 3;
+  --tw-aspect-w: 5;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  position: relative;
+}
 
-    margin: 0;
-    --tw-aspect-h: 3;
-    --tw-aspect-w: 5;
-    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
-    position: relative;
-  }
+.co_photo_gallery a img {
+  border: none;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
 
-  .co_photo_gallery a img {
-    border: none;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
 
-    -o-object-fit: cover;
-    object-fit: cover;
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-  }
-
-  /* .co_photo_gallery a > img:nth-child(-n + 1) {
+/* .co_photo_gallery a > img:nth-child(-n + 1) {
   content: url("imgs/path1386.jpg");
 } */
 
-  div#co_photo_gallery .co_photo_gallery_footer {
-    justify-content: center;
-    display: flex;
-    margin-top: 2rem;
-  }
-
-  div#co_photo_gallery .co_photo_gallery_footer a {
-    float: right;
-
-    float: none;
-
-    --tw-text-opacity: 1;
-    color: #2a4fb7;
-    font-size: 1rem;
-    font-weight: 900;
-    border: solid;
-    line-height: 1.5rem;
-    padding: 1.5rem 2rem 1.5rem;
-    --tw-bg-opacity: 1;
-    background-color: white;
-    border-radius: 2.5rem;
-    justify-content: center;
-    align-items: center;
-    height: 2.25rem;
-    display: inline-flex;
-  }
+div#co_photo_gallery .co_photo_gallery_footer {
+  justify-content: center;
+  display: flex;
+  margin-top: 2rem;
 }
+
+div#co_photo_gallery .co_photo_gallery_footer a {
+  float: right;
+
+  float: none;
+
+  --tw-text-opacity: 1;
+  color: #2a4fb7;
+  font-size: 1rem;
+  font-weight: 900;
+  border: solid;
+  line-height: 1.5rem;
+  padding: 1.5rem 2rem 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: white;
+  border-radius: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 2.25rem;
+  display: inline-flex;
+}
+
 @media (min-width: 768px) {
   .chabad_box_text_body,
   .chabad_updates_body,
