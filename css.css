@@ -2870,6 +2870,40 @@ article.content,
   body.mobile #menu > li.item.parent:not(:first-child) {
     display: flex !important;
   }
+
+  /*  */
+
+  .chabad_navigator_bar ul ::after {
+    /* content: url("https://beamish-kitten-69f126.netlify.app/menuNavPic.png") !important; */
+    height: 0.3rem;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+  }
+
+  .chabad_navigator_bar ul li.parent {
+    position: relative;
+    /* padding-right: 0.5rem; */
+    color: white;
+  }
+
+  .chabad_navigator_bar ul li.parent .sub_menu {
+    top: 100%;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    right: 0;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 30%);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.8);
+    transform-origin: top right;
+  }
+  body.mobile #navigation.chabad_navigator_bar #menu {
+    height: 36px;
+    width: fit-content !important;
+  }
 }
 /* .co_calendar_body {
  display: grid;
