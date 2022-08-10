@@ -2701,10 +2701,10 @@ article.content,
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
-  body.mobile div#chabad_head .chabad_navigator_bar {
+  /* body.mobile div#chabad_head .chabad_navigator_bar {
     width: 0rem !important;
     height: 0rem !important;
-  }
+  } */
 
   div#chabad_head .chabad_navigator_bar {
     width: 5rem !important;
