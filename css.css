@@ -2999,6 +2999,18 @@ article.content,
   }
   /* events end */
 }
+
+/* full screnn */
+/* events start */
+.co_calendar_body .co_calendar_gradient .co_calendar_text {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 0.5fr));
+  grid-template-rows: 0.5fr 0.5fr;
+  height: 14rem;
+  margin-left: 10rem;
+}
+/* events end */
 /* .co_calendar_body {
  display: grid;
  grid-template-columns: repeat(2,minmax(0,1fr));
