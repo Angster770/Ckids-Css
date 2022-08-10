@@ -2520,14 +2520,14 @@ article.content,
   display: block !important;
 } */
 
-.co_calendar_body .co_calendar_gradient .co_calendar_text {
+/* .co_calendar_body .co_calendar_gradient .co_calendar_text {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
   grid-template-rows: 0.5fr 0.5fr;
   height: 14rem;
   margin-left: 10rem;
-}
+} */
 #WeeklyClasses > div > div > img {
   background-color: #2e509f !important;
   mask: url(https://d20wyuhr8wjce.cloudfront.net/0fa3ad44-0d73-42ee-a384-3348a4f73cca/images/weekly-classes.svg)
