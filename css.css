@@ -2730,6 +2730,9 @@ article.content,
   .mb-10 {
     margin-bottom: 0 !important;
   }
+  .p-5 {
+    margin-bottom: 0rem;
+  }
 }
 /* more than mobile protrait */
 @media (min-width: 481px) and (max-width: 1014px) {
