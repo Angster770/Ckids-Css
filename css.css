@@ -2724,6 +2724,12 @@ article.content,
     transform: translateX(30%);
     gap: 1rem !important;
   }
+
+  /* lessening the margin of top and bottom of testimonials */
+
+  .mb-10 {
+    margin-bottom: 0 !important;
+  }
 }
 /* more than mobile protrait */
 @media (min-width: 481px) and (max-width: 1014px) {
