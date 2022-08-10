@@ -2571,18 +2571,17 @@ article.content,
     height: 14rem !important;
     margin-left: 10rem;
   }
-}
-
-.co_calendar_body .co_calendar_gradient .item {
-  height: 0;
-  /* padding-bottom: 100%; */
-  /* background: #f1686f; */
-  display: flex;
-  flex-direction: column;
-  color: white;
-  font-size: 16px;
-  border: 2px solid white;
-  padding: 0px !important;
+  .co_calendar_body .co_calendar_gradient .item {
+    height: 0;
+    /* padding-bottom: 100%; */
+    /* background: #f1686f; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 0px !important;
+  }
 }
 
 @media (min-width: 768px) {
