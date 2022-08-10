@@ -2515,53 +2515,55 @@ article.content,
     height: 14rem;
     margin-left: 10rem;
   }
-
-  #BodyContainer {
-    width: 100%;
-  }
-
-  .page-tools-sidebar {
-    font-size: 11px;
-  }
-
-  /* .co_calendar_body {
-  display: block !important;
-} */
-
-  #WeeklyClasses > div > div > img {
-    background-color: #2e509f !important;
-    mask: url(https://d20wyuhr8wjce.cloudfront.net/0fa3ad44-0d73-42ee-a384-3348a4f73cca/images/weekly-classes.svg)
-      no-repeat center / contain;
-    -webkit-mask: url(https://d20wyuhr8wjce.cloudfront.net/0fa3ad44-0d73-42ee-a384-3348a4f73cca/images/weekly-classes.svg)
-      no-repeat center / contain;
-  }
-
-  #WeeklyClasses > div > .cls-1 {
-    fill: #2e509e !important;
-  }
-  #WeeklyClasses > div {
-    fill: #2e509d !important;
-  }
   .co_calendar_text > div {
     padding: 0;
     margin: 0;
     border-left: #2b3579;
   }
-  .co_calendar_body .co_calendar_gradient .item .co_date {
-    /* padding: 0px 0 0px 0 !important; */
-    border-left: solid;
-    font-size: small;
-    border-left: 5px solid;
-    padding-left: 1rem !important;
-  }
-  .co_calendar_body .co_calendar_gradient .item .co_text_calendar {
-    display: none;
-  }
-  .co_calendar_body .co_calendar_gradient .item {
-    color: #2b3579 !important;
-    background-color: white !important;
-  }
 }
+
+#BodyContainer {
+  width: 100%;
+}
+
+.page-tools-sidebar {
+  font-size: 11px;
+}
+
+/* .co_calendar_body {
+  display: block !important;
+} */
+
+#WeeklyClasses > div > div > img {
+  background-color: #2e509f !important;
+  mask: url(https://d20wyuhr8wjce.cloudfront.net/0fa3ad44-0d73-42ee-a384-3348a4f73cca/images/weekly-classes.svg)
+    no-repeat center / contain;
+  -webkit-mask: url(https://d20wyuhr8wjce.cloudfront.net/0fa3ad44-0d73-42ee-a384-3348a4f73cca/images/weekly-classes.svg)
+    no-repeat center / contain;
+}
+
+#WeeklyClasses > div > .cls-1 {
+  fill: #2e509e !important;
+}
+#WeeklyClasses > div {
+  fill: #2e509d !important;
+}
+
+.co_calendar_body .co_calendar_gradient .item .co_date {
+  /* padding: 0px 0 0px 0 !important; */
+  border-left: solid;
+  font-size: small;
+  border-left: 5px solid;
+  padding-left: 1rem !important;
+}
+.co_calendar_body .co_calendar_gradient .item .co_text_calendar {
+  display: none;
+}
+.co_calendar_body .co_calendar_gradient .item {
+  color: #2b3579 !important;
+  background-color: white !important;
+}
+
 @media (min-width: 768px) {
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     display: grid;
