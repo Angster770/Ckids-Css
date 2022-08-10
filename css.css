@@ -2287,14 +2287,6 @@ div#chabad_head .chabad_navigator_bar ul li ul li a {
   margin-bottom: 5rem;
 }
 
-.co_calendar_body .co_calendar_gradient .co_calendar_text {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  grid-template-rows: repeat(2, minmax(0, 0.5fr)) !important;
-  grid-template-rows: 0.5fr 0.5fr;
-  height: 14rem;
-  margin-left: 10rem;
-}
 .co_title_calendar > a {
   font-size: xx-large;
   border-left: 5px solid;
@@ -2682,9 +2674,6 @@ article.content,
   body.mobile .chabad_navigator_bar #menu .item.heading a {
     opacity: 0;
   }
-  .chabad_navigator_bar {
-    /* margin-left: 15rem; */
-  }
 
   #chabad_head {
     display: flex;
@@ -2735,7 +2724,7 @@ article.content,
   }
   /* end of testimonials */
 
-  /*calender events start */
+  /*Calender events start */
 
   .co_calendar_body .co_calendar_gradient .co_calendar_text {
     margin-left: 5rem;
@@ -2839,6 +2828,17 @@ article.content,
     display: grid;
     grid: repeat(2, 60px) / auto-flow 80px;
   }
+
+  /* events start */
+  .co_calendar_body .co_calendar_gradient .co_calendar_text {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, minmax(0, 0.5fr)) !important;
+    grid-template-rows: 0.5fr 0.5fr;
+    height: 14rem;
+    margin-left: 10rem;
+  }
+  /* events end */
 }
 
 /* more than landscape mobile (tablet) */
@@ -2911,6 +2911,17 @@ article.content,
     display: grid;
     grid: repeat(2, 60px) / auto-flow 80px;
   }
+
+  /* events start */
+  .co_calendar_body .co_calendar_gradient .co_calendar_text {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, minmax(0, 0.5fr)) !important;
+    grid-template-rows: 0.5fr 0.5fr;
+    height: 14rem;
+    margin-left: 10rem;
+  }
+  /* events end */
 }
 /* between tablet and full screen  */
 @media (min-width: 1159px) and (max-width: 2579px) {
@@ -2976,6 +2987,17 @@ article.content,
   body.mobile .chabad_navigator_bar #menu .item.heading a {
     opacity: 0;
   }
+
+  /* events start */
+  .co_calendar_body .co_calendar_gradient .co_calendar_text {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, minmax(0, 0.5fr)) !important;
+    grid-template-rows: 0.5fr 0.5fr;
+    height: 14rem;
+    margin-left: 10rem;
+  }
+  /* events end */
 }
 /* .co_calendar_body {
  display: grid;
