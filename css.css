@@ -2733,7 +2733,7 @@ article.content,
 
   /* events flex row above div */
   .row_important {
-    flex-direction: row !important;
+    flex-direction: row;
   }
 
   /* calender events end */
