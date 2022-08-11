@@ -2733,9 +2733,12 @@ article.content,
 
   /* events flex row above div */
   /* .row_important {
-    flex-direction: row;
+    flex-direc
   } */
-
+  .grid_mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   /* calender events end */
   /* photo start */
 
