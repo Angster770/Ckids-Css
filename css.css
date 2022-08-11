@@ -2732,13 +2732,10 @@ article.content,
   }
 
   /* events flex row above div */
-  .events_mobile_flex_row {
-    display: flex;
-    flex-direction: row;
+  .row_important {
+    flex-direction: row !important;
   }
-  #events_mobile_flex_row_container {
-    flex-direction: row;
-  }
+
   /* calender events end */
   /* photo start */
 
