@@ -2739,6 +2739,10 @@ article.content,
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .grid_column_2_3 {
+    grid-column: 2/3;
+  }
   /* calender events end */
   /* photo start */
 
