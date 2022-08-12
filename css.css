@@ -2651,9 +2651,9 @@ article.content,
     font-size: large;
   }
 
-  .testimonial_container {
+  /* .testimonial_container {
     transform: translateX(128%);
-  }
+  } */
 
   .pr3 {
     padding-right: 3rem;
@@ -2702,7 +2702,7 @@ article.content,
   }
   /* pushing the white testimonial over to right and lessening gap */
   .testimonial_container {
-    transform: translateX(30%);
+    /* transform: translateX(30%); */
     gap: 1rem !important;
   }
 
@@ -2798,9 +2798,9 @@ article.content,
     font-size: large;
   }
 
-  .testimonial_container {
-    transform: translateX(90%);
-  }
+  /* .testimonial_container {
+    /* transform: translateX(90%); 
+  } */
 
   .pr3 {
     padding-right: 3rem;
@@ -2884,9 +2884,9 @@ article.content,
     font-size: large;
   }
 
-  .testimonial_container {
+  /* .testimonial_container {
     transform: translateX(25%);
-  }
+  } */
 
   .pr3 {
     padding-right: 3rem;
