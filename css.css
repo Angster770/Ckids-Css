@@ -2639,6 +2639,30 @@ article.content,
   .slider_width {
     width: 41.666667%;
   }
+
+  /* chuld pages buttons */
+
+  .co_index {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+  }
+
+  .co_index .item .title a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(43, 53, 121, 1);
+    color: white;
+    font-size: 18px;
+    padding: 0 2.3 0;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out;
+    height: 6rem;
+    width: auto;
+  }
 }
 
 /* mobile portrati */
