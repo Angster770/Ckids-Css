@@ -2799,7 +2799,7 @@ article.content,
   }
 
   .testimonial_container {
-    transform: translateX(128%);
+    transform: translateX(0%);
   }
 
   .pr3 {
@@ -2848,11 +2848,11 @@ article.content,
   /* events end */
 }
 /* the testimonial between phone and tablet */
-@media (max-width: 800px) and (min-width: 481px) {
+/* @media (max-width: 800px) and (min-width: 481px) {
   .testimonial_container {
     transform: translateX(0%);
   }
-}
+} */
 /* more than landscape mobile (tablet) */
 @media (min-width: 1015px) and (max-width: 1159px) {
   /* the top nav bar css */
