@@ -2066,6 +2066,10 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
   margin-left: 0;
 }
 
+body.mobile .chabad_navigator_bar .chabad_menu_content li:nth-child(n + 2) {
+  margin-top: 1.8rem;
+}
+
 body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) {
   padding-left: 0;
 }
