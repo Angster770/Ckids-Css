@@ -2066,7 +2066,7 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
   margin-left: 0;
 }
 
-#menu > ul > li:nth-child(-n + 2) {
+#menu > ul > li:nth-child(2) {
   margin-top: 1.8rem;
 }
 
