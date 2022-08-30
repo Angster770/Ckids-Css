@@ -2728,6 +2728,7 @@ article.content,
   .mobile_grid {
     display: grid;
     grid: repeat(2, 60px) / auto-flow 80px;
+    column-gap: 8rem;
   }
 
   div#chabad_head .chabad_navigator_bar {
