@@ -2066,7 +2066,7 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
   margin-left: 0;
 }
 
-body.mobile .chabad_navigator_bar .chabad_menu_content li:nth-child(n + 2) {
+#menu > ul > li:nth-child(2) {
   margin-top: 1.8rem;
 }
 
@@ -3057,9 +3057,7 @@ article.content,
   }
   /* events end */
 }
-body.mobile div#chabad_head .chabad_navigator_bar {
-  margin-top: 1.8rem !important;
-}
+
 /* body.mobile .chabad_navigator_bar #menu .item.heading {
   margin-top: 2.8rem;
 } */
