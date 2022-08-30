@@ -1663,9 +1663,6 @@ select {
     margin-top: 2.5rem;
   }
 
-  .md\:mt-10\8 {
-    margin-top: 2.8rem;
-  }
   .md\:mt-0 {
     margin-top: 0;
   }
@@ -3055,7 +3052,9 @@ article.content,
   }
   /* events end */
 }
-
+body.mobile .chabad_navigator_bar #menu .item.heading {
+  margin-top: 2.8rem;
+}
 /* full screnn */
 /* events start */
 /* .co_calendar_body .co_calendar_gradient .co_calendar_text {
