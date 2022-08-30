@@ -2074,6 +2074,13 @@ body.mobile #navigation.chabad_navigator_bar #menu li:not(.heading) .sub_menu {
   display: none !important;
 }
 
+/* title of child page to stretch across top */
+
+body.mobile .article-header {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 @media (min-width: 768px) {
   #navigation.chabad_navigator_bar #menu {
     height: 36px;
