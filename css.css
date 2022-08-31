@@ -2760,6 +2760,16 @@ article.content,
   .p-5 {
     margin-bottom: 0rem;
   }
+
+  .border-right-side {
+    border-top-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+
+  .border-left-radius {
+    border-top-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+  }
   /* end of testimonials */
 
   /*Calender events start mobile*/
