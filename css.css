@@ -2066,7 +2066,7 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
   margin-left: 0;
 }
 
-.parent .selected {
+#menu > il > il {
   margin-top: 1.8rem;
 }
 
