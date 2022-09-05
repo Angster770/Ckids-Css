@@ -2824,6 +2824,12 @@ article.content,
     display: grid;
     margin-top: 2.5rem;
   }
+  /* view more text */
+  .text-vm {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    line-height: 0rem;
+  }
 
   /* photo end */
 }
