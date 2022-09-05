@@ -2244,6 +2244,10 @@ div#chabad_head > div {
   content: " ";
 } */
 
+.photo {
+  border: 0rem !important;
+}
+
 .content_page .photo img {
   border-radius: 12px;
 }
