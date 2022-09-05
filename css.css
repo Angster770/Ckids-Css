@@ -2249,7 +2249,7 @@ div#chabad_head > div {
 }
 
 .form-header-group {
-  margin: 0rem;
+  margin: 0rem !important;
 }
 .content_page .photo img {
   border-radius: 12px;
