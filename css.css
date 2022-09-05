@@ -2061,7 +2061,7 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
 
 /* keeping the nav bar margin to phone screen */
 /* title to be normal at full screen */
-@media (max-width: 768px) {
+@media (min-width: 400px) and (max-width: 768px) {
   #menu > li:nth-child(2) {
     margin-top: 2.8rem;
   }
