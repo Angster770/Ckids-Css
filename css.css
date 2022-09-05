@@ -2838,11 +2838,16 @@ article.content,
     line-height: 1rem;
     font-size: 1rem;
   }
-
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
   /* photo end */
 }
 /* more than mobile protrait */
 @media (min-width: 481px) and (max-width: 1014px) {
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
   /* the top nav bar css */
   #navigation.chabad_navigator_bar #menu {
     height: 36px;
