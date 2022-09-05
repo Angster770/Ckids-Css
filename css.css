@@ -2828,7 +2828,7 @@ article.content,
   .text-vm {
     padding-left: 0rem;
     padding-right: 0rem;
-    line-height: 0rem;
+    line-height: 1rem;
     font-size: 1rem;
   }
 
