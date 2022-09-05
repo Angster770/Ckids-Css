@@ -1774,11 +1774,6 @@ select {
   .md\:text-left {
     text-align: left;
   }
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-    padding-top: 3rem;
-  }
 
   .mobile_grid {
     display: flex;
@@ -2067,9 +2062,15 @@ body.mobile .chabad_navigator_bar .chabad_menu_content li {
 }
 
 /* keeping the nav bar margin to phone screen */
+/* title to be normal at full screen */
 @media (max-width: 768px) {
   #menu > li:nth-child(2) {
     margin-top: 2.8rem;
+  }
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+    padding-top: 3rem;
   }
 }
 
