@@ -2525,7 +2525,7 @@ article.content,
   height: 150px;
   padding: 4px;
   background: #00a79d;
-  border-radius: 100%;
+  border-radius: 1rem;
   margin: 20px 20px 20px 0;
 }
 
