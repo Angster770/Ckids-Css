@@ -2764,7 +2764,7 @@ article.content,
   }
   /* pushing the white testimonial over to right and lessening gap */
   .testimonial_container {
-    /* transform: translateX(30%); */
+    transform: translateX(30%);
     gap: 1rem !important;
   }
 
