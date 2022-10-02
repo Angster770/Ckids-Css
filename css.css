@@ -2918,9 +2918,11 @@ article.content,
     display: flex;
   }
 
+  /* changed to be like 2748 */
   .mobile_grid {
     display: grid;
     grid: repeat(2, 60px) / auto-flow 80px;
+    column-gap: 8rem;
   }
 
   /* events start */
