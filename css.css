@@ -2935,6 +2935,13 @@ article.content,
     margin-left: 10rem;
   }
   /* events end */
+
+  /* testimonials start */
+  /* testimonial white boxes */
+  .testimonial_container > div > div {
+    width: 10rem;
+    height: 10rem;
+  }
 }
 /* the testimonial between phone and tablet */
 /* @media (max-width: 800px) and (min-width: 481px) {
